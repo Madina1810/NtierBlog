@@ -16,5 +16,6 @@ namespace Entities.Models
         public virtual Author Author { get; set; }
         public virtual Category Category { get; set; }
         public virtual List  <ArticleTag> ArticleTags {  get; set; }
+        //,
     }
 }
